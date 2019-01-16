@@ -1,0 +1,52 @@
+source 'https://rubygems.org'
+
+gem 'rails', '5.0.2'
+
+gem 'selenium-webdriver'
+gem 'nokogiri'
+gem 'os'
+#gem 'tiny_tds'
+gem 'pg'
+gem 'mechanize', '2.7.5'
+gem 'highline'
+gem 'sidekiq', '4.1.4'
+gem 'sidekiq-failures', '1.0.0'
+gem 'faraday', '~> 0.12.1'
+gem 'hiredis', '~> 0.6.0'
+gem 'redis', '~> 3.3.0', require: ['redis', 'redis/connection/hiredis']
+gem 'redis-rails', '~> 5.0.0'
+gem 'watir', '6.14'
+gem 'pdfkit'
+gem 'kramdown'
+gem 'aws-sdk'
+gem 'rest-client'
+gem 'socksify'
+gem 'wicked_pdf', '1.1.0'
+gem 'wkhtmltopdf-binary', '0.12.3.1'
+gem 'activerecord-import', '~> 0.19.0'
+gem 'prawn', '2.2.2'
+gem 'prawn-table'
+gem 'parallel', '1.11.2'
+gem 'ruby-progressbar', '1.8.1'
+gem 'pdf-reader', '2.0.0'
+gem 'libreconv'
+gem 'faraday-cookie_jar', '0.0.6'
+
+group :development do
+  gem 'pry'
+  gem 'spring'
+  gem 'capistrano'
+  gem 'capistrano-ext'
+  gem 'capistrano-rails', '~> 1.1.2'
+  gem 'capistrano-bundler', '~> 1.1.4'
+  gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'capistrano-passenger'
+  gem 'capistrano-sidekiq'
+  gem 'cap-ec2', '~> 0.0.19'
+  gem 'listen'
+  gem 'rubocop', '~> 0.49.1', require: false
+
+
+
+end
+ 
